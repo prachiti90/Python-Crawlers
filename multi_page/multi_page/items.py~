@@ -1,0 +1,8 @@
+
+import scrapy
+from scrapy.item import Item, Field
+
+
+class Itemtype(scrapy.Item):
+	link = Field()
+	
