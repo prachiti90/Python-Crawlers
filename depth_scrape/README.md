@@ -8,4 +8,12 @@ Recursively  scraping to a depth of 4, with FilesPipline to download files and S
  - Using Selenium I login to the page and pass the session cookies to Scrapy for Scraping the redirection links.
  - At the last page the links to the '.doc' files are scraped using Selenium.
  - The Javascript Function defined within the source code of the webpage is then used to Generate the Next Page.
+
+
+## Step by Step Demo.
+
+
+ 
+
+
   
