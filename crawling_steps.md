@@ -36,15 +36,18 @@ Step 1 to 5 are only done once to isolate all resources and install scrapy for f
 
 7.Create Item Class
   - Do cd new_crawler_name.
-  - Now edit items.py according to your needs
+  - Now edit items.py according to your needs.
+  
 8.Create Spider
   - Do scrapy genspider my_spider_name www.scraping.site.name.com
   - Here my_spider_name is the name of the spider, The www.scraping.site.name.com will be put under allowed domains and genspider is the spider class/type that you are using.
   - Spider types that i have used are : Spider, InitSpider, CrawlSpider.
+  
 9.Create Pipeline
   - This is Optional. 
   - To create a pipline just edit the pipline.py file present next to items.py in your scrapy project folder.
   - However remember to edit the settings.py to activate your pipeline.
+  
 10.Run Crawler
   - Run your crawler as :
   >   scrapy crawl my_spider 
